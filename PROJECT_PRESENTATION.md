@@ -20,3 +20,8 @@ export function translateNumber(number) {
     --Work your magic here!--
 }
 ```
+
+---
+
+Planning:
+https://miro.com/app/board/uXjVKrESetI=/?share_link_id=748964869533
