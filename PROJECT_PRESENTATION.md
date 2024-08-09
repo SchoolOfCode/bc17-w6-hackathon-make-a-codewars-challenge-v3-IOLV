@@ -11,7 +11,7 @@ Input: `123` | Output: `one hundred and twenty-three`
 ---
 
 * Step 1: Install npm and vitest
-* Step 2: Run the test using `npx vitest`
+* Step 2: Run the test using `npm test` or `npx vitest`
 * Step 3: Start creating the function below.
 * Step 4: Profit!
 
