@@ -78,16 +78,16 @@ describe("Validate scaleUnit translation is correct.", () => {
         expect(result).toBe("one thousand");
         console.log(`Input '1000' translated to '${result}'`)
     });
+});
+
+//## Test 5/8
+describe("Validate scaleUnit in thousands translation is correct.", () => {
 
     test("Validate the translation of '7219' is correct.", () => {
         const result = translateNumber(7219);
         expect(result).toBe("seven thousand, two hundred and nineteen");
         console.log(`Input '7219' translated to '${result}'`)
     });
-});
-
-//## Test 5/8
-describe("Validate scaleUnit in thousands translation is correct.", () => {
 
     test("Validate the translation of '32458' is correct.", () => {
         const result = translateNumber(32458);
